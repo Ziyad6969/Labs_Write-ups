@@ -5,7 +5,7 @@
 
 [![Vulnerability](https://img.shields.io/badge/Vulnerability-Access%20Control-red)](https://owasp.org/www-project-top-ten/2017/A5_2017-Broken_Access_Control)
 [![CWE](https://img.shields.io/badge/CWE-284-blue)](https://cwe.mitre.org/data/definitions/284.html)
-[![Source](https://img.shields.io/badge/Source-PortSwigger-orange)](https://portswigger.net/web-security/learning-paths/server-side-vulnerabilities-apprentice/access-control-apprentice/access-control/lab-unprotected-admin-functionality-with-unpredictable-url#)
+[![Source](https://img.shields.io/badge/Source-PortSwigger-orange)](https://portswigger.net/web-security/access-control/lab-unprotected-admin-functionality-with-unpredictable-url)
 
 </div>
 
