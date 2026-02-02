@@ -35,11 +35,11 @@ This confirms that the application is vulnerable to **arbitrary file read**, as 
 
 ---
 
-### Proof of Concept (PoC)
+## Proof of Concept (PoC)
 
 The image loading functionality can be abused to read sensitive system files.
 
-## Original Request
+### Original Request
 
 A legitimate request for a product image:
 
@@ -48,7 +48,7 @@ Host: <lab-id>.web-security-academy.net `
 
 This request returns the intended image file.
 
-## Malicious Request
+### Malicious Request
 
 The `filename` parameter was modified to include\
 [directory traversal sequences](https://owasp.org/www-community/attacks/Path_Traversal)\
@@ -58,7 +58,7 @@ in order to access a sensitive\
 `GET /image?filename=../../../../../../etc/passwd HTTP/2
 Host: <lab-id>.web-security-academy.net `
 
-## Result
+### Result
 
 The server responds with\
 HTTP 200 OK\
