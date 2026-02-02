@@ -36,7 +36,6 @@ This confirms that the application is vulnerable to **arbitrary file read**, as 
 ---
 
 ### Proof of Concept (PoC)
-----------------------
 
 The image loading functionality can be abused to read sensitive system files.
 
@@ -49,8 +48,6 @@ Host: <lab-id>.web-security-academy.net `
 
 This request returns the intended image file.
 
----
-
 ## Malicious Request
 
 The `filename` parameter was modified to include\
@@ -60,8 +57,6 @@ in order to access a sensitive\
 
 `GET /image?filename=../../../../../../etc/passwd HTTP/2
 Host: <lab-id>.web-security-academy.net `
-
----
 
 ## Result
 
