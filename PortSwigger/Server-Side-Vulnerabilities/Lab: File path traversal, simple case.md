@@ -30,3 +30,27 @@ This lab demonstrates a File Path Traversal vulnerability that allows an attacke
 
 ```http
 GET /image?filename=53.jpg
+```
+
+The application dynamically loads product images based on the
+[`filename`](https://portswigger.net/web-security/file-path-traversal) parameter supplied by the client.
+
+---
+
+## Conclusion
+
+The application is vulnerable to
+[**File Path Traversal**](https://owasp.org/www-community/attacks/Path_Traversal),
+allowing attackers to read arbitrary files from the underlying operating system via the
+[image loading endpoint](https://portswigger.net/web-security/file-path-traversal).
+This issue results in serious
+[information disclosure](https://owasp.org/www-community/vulnerabilities/Information_exposure)
+and must be remediated.
+
+---
+
+<div align="center">
+
+**Lab solved — vulnerability confirmed**
+
+</div>
