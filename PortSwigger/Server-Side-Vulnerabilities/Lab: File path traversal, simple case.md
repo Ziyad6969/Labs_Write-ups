@@ -13,8 +13,7 @@
 
 ## Overview
 
-This lab demonstrates a  
-[File Path Traversal](https://owasp.org/www-community/attacks/Path_Traversal) vulnerability that allows an attacker to read arbitrary files from the server’s underlying operating system.  
+This lab demonstrates a  [File Path Traversal](https://owasp.org/www-community/attacks/Path_Traversal) vulnerability that allows an attacker to read arbitrary files from the server’s underlying operating system.  
 The issue arises due to improper handling of user-supplied input that is used to access files on the server.
 
 ---
@@ -38,15 +37,12 @@ This confirms that the application is vulnerable to **arbitrary file read**, as 
 
 Successful exploitation allows an attacker to:
 
-- Read sensitive  
-  [system files](https://en.wikipedia.org/wiki/Unix_filesystem)
+- Read sensitive  [system files](https://en.wikipedia.org/wiki/Unix_filesystem)
 - Enumerate valid system users
 - Access application configuration files that may contain credentials
 - Collect information useful for further attacks such as privilege escalation or lateral movement
 
-This vulnerability results in serious  
-[information disclosure](https://owasp.org/www-community/vulnerabilities/Information_exposure)  
-and significantly weakens the security posture of the application.
+This vulnerability results in serious  [information disclosure](https://owasp.org/www-community/vulnerabilities/Information_exposure)  and significantly weakens the security posture of the application.
 
 ---
 
@@ -59,8 +55,7 @@ The vulnerability exists because the application:
 - Does not restrict file access to a fixed base directory
 - Lacks an allowlist of permitted files
 
-This violates secure file handling practices recommended by  
-[OWASP](https://owasp.org/www-project-top-ten/).
+This violates secure file handling practices recommended by  [OWASP](https://owasp.org/www-project-top-ten/).
 
 ---
 
@@ -82,10 +77,8 @@ To mitigate this vulnerability, the application should:
 
 ## Conclusion
 
-The application is vulnerable to  
-[**File Path Traversal**](https://owasp.org/www-community/attacks/Path_Traversal),  
-allowing attackers to read arbitrary files from the underlying operating system by abusing the image loading functionality. By manipulating the `filename` parameter, sensitive system files such as  
-[`/etc/passwd`](https://en.wikipedia.org/wiki/Passwd)  
+The application is vulnerable to  [**File Path Traversal**](https://owasp.org/www-community/attacks/Path_Traversal),  
+allowing attackers to read arbitrary files from the underlying operating system by abusing the image loading functionality. By manipulating the `filename` parameter, sensitive system files such as  [`/etc/passwd`](https://en.wikipedia.org/wiki/Passwd)  
 can be disclosed, leading to critical information exposure. This issue must be remediated to prevent further exploitation.
 
 ---
