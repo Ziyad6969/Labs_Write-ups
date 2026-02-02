@@ -33,15 +33,17 @@ The location of this admin panel is not linked from the main application interfa
 
 The application exposes a publicly accessible `robots.txt` file:
 
+```
 GET /robots.txt HTTP/2
 Host: <lab-id>.web-security-academy.net
-
+```
 
 ### Server Response
 
+```
 User-agent: *
 Disallow: /administrator-panel
-
+```
 
 Since `robots.txt` is a public file and does not provide any security controls, this reveals the existence and location of a sensitive administrative endpoint.
 
@@ -53,9 +55,10 @@ Since `robots.txt` is a public file and does not provide any security controls, 
 
 By directly navigating to the disclosed endpoint:
 
+```
 GET /administrator-panel HTTP/2
 Host: <lab-id>.web-security-academy.net
-
+```
 
 the server responds with the **administrative interface** without requiring any authentication.
 
