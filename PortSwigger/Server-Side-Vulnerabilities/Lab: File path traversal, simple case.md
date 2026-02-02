@@ -2,11 +2,13 @@
 
 # File Path Traversal  
 ### Arbitrary File Read Vulnerability
-[Lab](https://portswigger.net/web-security/learning-paths/server-side-vulnerabilities-apprentice/path-traversal-apprentice/file-path-traversal/lab-simple#)
 
 [![Vulnerability](https://img.shields.io/badge/Vulnerability-Path%20Traversal-red)](https://owasp.org/www-community/attacks/Path_Traversal)
 [![CWE](https://img.shields.io/badge/CWE-22-blue)](https://cwe.mitre.org/data/definitions/22.html)
 [![Source](https://img.shields.io/badge/Source-PortSwigger-lightgrey)](https://portswigger.net/web-security/file-path-traversal)
+
+[Lab](https://portswigger.net/web-security/learning-paths/server-side-vulnerabilities-apprentice/path-traversal-apprentice/file-path-traversal/lab-simple#)
+
 
 </div>
 
