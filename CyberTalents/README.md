@@ -3,8 +3,11 @@
 # CyberTalents Writeups Repository 
 
 Welcome to my **CyberTalents Labs Writeups Repository**,
+
 where I document and explain the publicly accessible labs I solve on [CyberTalents](https://cybertalents.com/).
+
 This repo is meant as a **learning resource** for anyone interested in web security, ethical hacking, and penetration testing.
+
 </div>
 ## Purpose
 
