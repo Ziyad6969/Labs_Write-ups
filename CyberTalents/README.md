@@ -9,6 +9,7 @@ where I document and explain the publicly accessible labs I solve on [CyberTalen
 This repo is meant as a **learning resource** for anyone interested in web security, ethical hacking, and penetration testing.
 
 </div>
+
 ## Purpose
 
 The goal of this repository is to:
