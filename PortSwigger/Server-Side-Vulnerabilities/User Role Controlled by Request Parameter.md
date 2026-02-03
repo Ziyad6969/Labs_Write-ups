@@ -93,7 +93,7 @@ Once authenticated as an administrator, the admin panel provides functionality t
 
 The attacker can use the admin interface to delete the user **carlos**, completing the lab objective.
 
-> `Note:` The `Admin=true` cookie must be preserved across **all requests**, including page navigation and the delete action, for the exploit to succeed.
+> **Note:** The `Admin=true` cookie must be preserved across **all requests**, including page navigation and the delete action, for the exploit to succeed.
 
 ---
 
