@@ -1,8 +1,8 @@
 <div align="center">
 
-# CyberTalents Writeups Repository 
+# CyberTalents Labs Writeups
 
-Welcome to my **CyberTalents Labs Writeups Repository**,
+This folder contains **CyberTalents Labs Writeups**,
 
 where I document and explain the publicly accessible labs I solve on [CyberTalents](https://cybertalents.com/).
 
