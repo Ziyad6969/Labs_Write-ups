@@ -24,5 +24,11 @@ The goal of this repository is to:
 
 ## Structure
 
-Each lab has its own folder:
+Each lab is organized in its own folder and contains:
+
+- `README.md` – explains the lab objective and challenge details  
+- `Solution.md` – walks through the exploitation steps and how the **FLAG** was obtained
+
+> **Note:** It’s highly recommended to spend time attempting the lab yourself before reading the solution.  
+> My personal rule is ~2 hours of effort with no progress 😅 before checking a writeup.
 
