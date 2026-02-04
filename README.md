@@ -10,6 +10,7 @@ The focus of these write-ups is on:
 
 ## Platforms
 - PortSwigger Web Security Academy
+- CyberTalents
 
 ## Structure
 Write-ups are organized by platform, then by vulnerability category or challenge type.
