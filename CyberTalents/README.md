@@ -28,6 +28,7 @@ Each lab is organized in its own folder and contains:
 
 - `README.md` – explains the lab objective and challenge details  
 - `Solution.md` – walks through the exploitation steps and how the **FLAG** was obtained
+> Even though `Solution.md` has the full solution to the lab the **FLAG** is omitted intentionally so the reader has to go through all of the steps himself. as these writeups focus on methodology and explotation techniques only.
 
 > **Note:** It’s highly recommended to spend time attempting the lab yourself before reading the solution.  
 > My personal rule is ~2 hours of effort with no progress 😅 before checking a writeup.
