@@ -1,8 +1,9 @@
 <div align = "center">
 
 # Solution – Admin Has the Power
---
+
 </div>
+
 
 > Spoiler warning: This file contains the full solution.
 
