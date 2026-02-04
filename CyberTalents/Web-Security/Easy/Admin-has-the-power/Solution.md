@@ -7,6 +7,8 @@
 
 > Spoiler warning: This file contains the full solution.
 
+---
+
 ## 1. Initial Observation
 
 After loading the login page, two important details can be observed:
@@ -14,12 +16,16 @@ After loading the login page, two important details can be observed:
 1. A cookie named `role` is set with the value `support`.
 2. While inspecting the page source / elements, hardcoded credentials are visible and appear to have been left unintentionally.
 
+---
+
 ## 2. Authentication
 
 Using the exposed credentials, we are able to log in successfully.  
 However, after logging in, access to the flag is still restricted.
 
 The application identifies the user as having a **support** role rather than an **admin** role.
+
+---
 
 ## 3. Privilege Escalation via Cookies
 
@@ -33,9 +39,13 @@ to:
 
 and refreshing the page, the application treats the user as an administrator.
 
+---
+
 ## 4. Flag Retrieval
 
 Once the role is changed to `admin`, access to the flag is granted and the challenge is completed successfully.
+
+---
 
 ## Takeaways
 
