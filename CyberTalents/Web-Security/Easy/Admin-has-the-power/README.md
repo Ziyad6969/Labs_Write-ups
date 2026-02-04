@@ -3,8 +3,11 @@
 # Admin Has the Power
 
 **Platform:** CyberTalents  
+
 **Difficulty:** Easy
+
 **Category:** Authentication / Access Control
+
 **[Lab](https://cybertalents.com/challenges/web/admin-has-the-power)**
 
 <div>
