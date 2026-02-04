@@ -10,7 +10,7 @@
 
 **[Lab](https://cybertalents.com/challenges/web/admin-has-the-power)**
 
-<div>
+</div>
 
 ---
   
