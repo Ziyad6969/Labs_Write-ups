@@ -7,6 +7,7 @@
 **Platform:** CyberTalents  
 **Difficulty:** Easy  
 **Category:** Web Security  
+**[Lab](https://cybertalents.com/challenges/web/cool-name-effect)**
 
 ---
 
