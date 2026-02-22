@@ -1,8 +1,12 @@
+<div align=center>
+
 # Cool Name Effect
 
 **Platform:** CyberTalents  
 **Difficulty:** Easy  
 **Category:** Web Security  
+
+</div>
 
 ---
 
