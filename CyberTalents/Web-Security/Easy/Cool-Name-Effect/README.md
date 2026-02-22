@@ -2,11 +2,11 @@
 
 # Cool Name Effect
 
+</div>
+
 **Platform:** CyberTalents  
 **Difficulty:** Easy  
 **Category:** Web Security  
-
-</div>
 
 ---
 
