@@ -2,6 +2,8 @@
   
 # Admin Has the Power
 
+</div>
+
 **Platform:** CyberTalents  
 
 **Difficulty:** Easy
@@ -10,7 +12,6 @@
 
 **[Lab](https://cybertalents.com/challenges/web/admin-has-the-power)**
 
-</div>
 
 ---
   
